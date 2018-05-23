@@ -11,7 +11,6 @@
     <packaging>jar</packaging>
 
 
-
     <build>
         <resources>
             <resource>
@@ -49,6 +48,7 @@
             <plugin>
                 <groupId>org.mortbay.jetty</groupId>
                 <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.10</version>
             </plugin>
             <!--<plugin>
                 <groupId>org.apache.felix</groupId>
@@ -268,10 +268,10 @@
             <artifactId>cas-client-core</artifactId>
             <version>3.3.2</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-core</artifactId>
-        </dependency>
+        </dependency>-->
 
         <!-- Hazelcast for Orbis authentication -->
         <dependency>
